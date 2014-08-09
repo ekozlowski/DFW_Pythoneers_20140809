@@ -1,0 +1,18 @@
+<html>
+
+<head>
+</head>
+
+<body>
+{% if name=='Marcel' %}
+
+{% for x in range(5) %}
+Hi Marcel!  :)
+{% endfor %}
+{% else %}
+Oh, hai {{name|upper}}!
+{% endif %}
+
+</body>
+
+</html>
